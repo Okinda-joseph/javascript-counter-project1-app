@@ -1,0 +1,63 @@
+:root {
+    --bg-gradient: linear-gradient(180deg, #46c389, #fd5c30 60%);
+    --bg-cover: #00aaff;
+    --dark-text: #242424;
+    --light-text: #c0c0c0;
+    --white-text: #ffffff;
+}
+
+body {
+    min-height: 100vh !important;
+    background: var(--bg-gradient) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.count-title {
+    display: block;
+    text-align: center;
+    font-size: 4.5rem !important;
+    font-weight: 600 !important;
+    text-transform: capitalize;
+    margin-bottom: 40px !important;
+}
+
+hr {
+    width: 30%;
+    height: 6px !important;
+    background: var(--dark-text) !important;
+    color: var(--dark-text) !important;
+    outline: none !important;
+    border: none;
+    border-radius: 5px !important;
+}
+
+#countLabel {
+    font-size: 10rem !important;
+    text-align: center !important;
+    color: var(--light-text) !important;
+    margin: 20px 0px 10px 0;
+}
+
+.count-btn {
+    text-align: center !important;
+    margin-top: 20px !important;
+}
+
+.count-btn button {
+    background-color: var(--bg-cover) !important;
+    color: var(--white-text) !important;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px !important;
+    cursor: pointer;
+    transition: background-color, color 0.25s;
+}
+
+.count-btn button:hover {
+    background-color: #33bbff !important;
+    color: var(--light-text) !important;
+}
